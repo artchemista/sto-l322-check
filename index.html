@@ -63,21 +63,22 @@ hr{border:0;height:1px;background:#252a36;margin:28px 0}
 <h2>Попередній тест форсунок (довідка для майстра)</h2>
 <div class="block">
 <div class="row"><b>Дата:</b> 2025-09-18 · <b>Сервіс:</b> HelpDiesel · <b>Стенд:</b> Open System CR-JET</div>
-<div class="row"><b>Форсунки:</b> Bosch <code>0445116037</code> CRI 3-18 PIEZO, 8 шт.</div>
+<div class="row"><b>Форсунки:</b> Bosch <code>0445116037(2)</code> CRI 3-18 PIEZO-BOSCH, 8 шт.</div>
 <table>
-<thead><tr><th>#</th><th>Серійний</th><th>VL<br><span style="font-weight:400;font-size:.9em">(47.9–52.9)</span></th><th>EM<br><span style="font-weight:400;font-size:.9em">(18.3–21.9)</span></th><th>VE<br><span style="font-weight:400;font-size:.9em">(1.3–2.3)</span></th><th>LL<br><span style="font-weight:400;font-size:.9em">(2.3–4.3)</span></th><th>Стан</th></tr></thead>
+<thead><tr><th>#</th><th>Серійний</th><th>Slot C</th><th>Electro<br><span style="font-weight:400;font-size:.9em">R / C</span></th><th>VL<br><span style="font-weight:400;font-size:.9em">Под / Обр</span></th><th>EM<br><span style="font-weight:400;font-size:.9em">Под</span></th><th>Стан</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>11FFC3E028</td><td>48.3</td><td>19.9</td><td>2.0</td><td>4.2</td><td class="ok">✓ LL на межі</td></tr>
-<tr><td>2</td><td>0A0001C028</td><td>50.1</td><td>21.1</td><td>2.2</td><td>3.8</td><td class="ok">✓</td></tr>
-<tr><td>3</td><td>01E0216028</td><td>50.8</td><td>21.1</td><td>2.2</td><td>4.1</td><td class="ok">✓</td></tr>
-<tr><td>4</td><td>09F0013030</td><td>50.1</td><td>20.4</td><td>2.0</td><td>4.0</td><td class="ok">✓ Start Up 58.8</td></tr>
-<tr><td>5</td><td>01EFC28028</td><td>50.8</td><td>21.1</td><td>2.2</td><td>4.1</td><td class="ok">✓</td></tr>
-<tr><td>6</td><td>01EFB11028</td><td>50.0</td><td>21.0</td><td>2.3</td><td class="bad">5.0</td><td class="bad">⚠ LL вище норми</td></tr>
-<tr><td>7</td><td>01EE2C028</td><td>50.0</td><td>21.0</td><td>2.3</td><td class="bad">5.0</td><td class="bad">⚠ LL вище норми</td></tr>
-<tr><td>8</td><td>01DF41D028</td><td>48.8</td><td>20.6</td><td>2.0</td><td>4.0</td><td class="ok">✓</td></tr>
+<tr><td>1</td><td>11FFC3E028</td><td>0572BE2020</td><td>179 kΩ / 2.33 μF</td><td>48.3 / 10.6</td><td>19.9</td><td class="ok">✓</td></tr>
+<tr><td>2</td><td>0A0001C028</td><td>EDB07C4020</td><td>183 kΩ / 2.45 μF</td><td>50.1 / 11.2</td><td>21.1</td><td class="ok">✓</td></tr>
+<tr><td>3</td><td>01E0216028</td><td>ED8FDCB020</td><td>183 kΩ / 2.55 μF</td><td>50.6 / 11.1</td><td>21.1</td><td class="ok">✓</td></tr>
+<tr><td>4</td><td>09F0013030</td><td>FB907EB020</td><td>183 kΩ / 2.45 μF</td><td>50.1 / 11.0</td><td>20.4</td><td class="ok">✓</td></tr>
+<tr><td>5</td><td>09EFC28028</td><td>EF707E3020</td><td>172 kΩ / 2.74 μF</td><td>50.1 / 11.2</td><td>21.0</td><td class="ok">✓</td></tr>
+<tr><td>6</td><td>01EF811028</td><td>EF715EA020</td><td>175 kΩ / 2.52 μF</td><td>49.4 / 11.1</td><td>21.0</td><td class="ok">✓</td></tr>
+<tr><td>7</td><td>01EEE2C028</td><td>EB909E4020</td><td>183 kΩ / 2.37 μF</td><td>50.0 / 11.0</td><td>21.3</td><td class="ok">✓</td></tr>
+<tr><td>8</td><td>01DF41D028</td><td>F7921E7020</td><td>183 kΩ / 2.37 μF</td><td>48.8 / 11.1</td><td>20.6</td><td class="ok">✓</td></tr>
 </tbody>
 </table>
-<div class="inj-note"><b>Висновок тоді:</b> усі 8 робочі. <b>#6 і #7</b> — підвищена подача на холостих (LL=5.0 при нормі 4.3). Рекомендовано спостереження в динаміці.</div>
+<div class="inj-note"><b>Норми:</b> Electro R: 150–210 kΩ, C: &gt;2.00 μF · VL Подача: 47.9–52.9 · VL Зворот: 7.0–15.0 · EM: 18.3–21.9</div>
+<div class="inj-note"><b>Висновок сервісу (HelpDiesel):</b> усі 8 форсунок робочі, проблем немає. Значення VE і LL на доступних скрінах зрізані — не відображаю.</div>
 </div>
 
 <div class="band crit">🔴 КРИТИЧНО</div>
@@ -171,7 +172,7 @@ hr{border:0;height:1px;background:#252a36;margin:28px 0}
 <h2>5. Форсунки — повторний leak-off (після 2025-09)</h2>
 
 <div class="block">
-<div class="row"><b>Перевірити:</b> back-leakage тест як у минулому. Динаміка <b>#6 і #7</b> (були 5.0 при нормі 4.3).</div>
+<div class="row"><b>Перевірити:</b> back-leakage тест як у минулому — контроль динаміки на 40k+ км після попередньої діагностики.</div>
 <div class="row"><b>Як:</b> leak-off test із прозорими колбами на return-line. Двигун прогрітий &gt;50°C, 2–3 хв на холостих + на 3000 об/хв.</div>
 <div class="row"><span class="flag">Червоний прапор:</span> різниця між форсунками &gt;30%, одна колба набирає &gt;25 мл за тест. Якщо #6/#7 погіршились — ставити під контроль.</div>
 </div>
